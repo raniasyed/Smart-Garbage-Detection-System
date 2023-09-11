@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
+
+roboflow:
+  workspace: trashnet-annotations
+  project: annot1
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trashnet-annotations/annot1/dataset/1

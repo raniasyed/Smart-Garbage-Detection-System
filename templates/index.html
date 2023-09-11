@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: sans-serif;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+        }
+
+        .object {
+            border: 1px solid red;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .object .name {
+            font-weight: bold;
+        }
+
+        .object .confidence {
+            font-size: smaller;
+        }
+    </style>
+</head>
+<body>
+    <video id="video"></video>
+    <div id="objects"></div>
+</body>
+</html>
